@@ -14,7 +14,7 @@ const Router = () => {
           <Route exact path="/" component={Genres}/>  
           <Route path="/login" component={Login} />
           <Route path="/createAccount" component={CreateAccount}/> 
-          {/* <Route path="/search" component={Search}/>  */}
+          <Route path="/search" component={Search}/>
 
            {/*<ProtectedRoute path="/add" component={Add} />  */}
       </Switch>

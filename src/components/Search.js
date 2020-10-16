@@ -19,14 +19,14 @@ class Search extends Component {
   render() {
     return( 
         <div>
-            {/* <h1>Veggie Options</h1>
+            {/*<h1>Veggie Options</h1>
             {
-                this.state.recipes.map((recipes) => {
+                recipes.map((recipes) => {
                return (
-                 <h1>{recipes.meals.strMeal}</h1>
+                 <h1>{recipes.name}</h1>
                ) 
                 })
-            } */}
+            }*/}
         </div>
     )
 }

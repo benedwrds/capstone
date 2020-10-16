@@ -40,11 +40,11 @@ class CreateAccount extends Component {
     componentDidUpdate = (prevProps, prevState) => {
         if (prevState.open !== this.state.open) {
             this.setState({
-                id: '',
-                name: '',
-                description: '',
-                address: '',
-                hours: ''
+                firstName: '',
+                lastName: '',
+                email: '',
+                username: '',
+                password: ''
             })
         }
     }
